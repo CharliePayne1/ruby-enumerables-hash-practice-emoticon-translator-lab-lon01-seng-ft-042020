@@ -14,9 +14,8 @@ def get_english meaning(filename, japanese_emoticon)
     hash = load_library(filename)
     hash.each do |key, value|
         if value.[:japanese] = japanese_emoticon
-          key
+          return key
         end
-    else puts "Sorry, that emoticon was not found"
     end
   end
 end
