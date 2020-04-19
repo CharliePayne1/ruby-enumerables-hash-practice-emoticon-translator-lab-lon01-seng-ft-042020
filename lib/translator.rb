@@ -18,4 +18,3 @@ def get_english meaning(filename, japanese_emoticon)
         end
       end
     end
-  end
