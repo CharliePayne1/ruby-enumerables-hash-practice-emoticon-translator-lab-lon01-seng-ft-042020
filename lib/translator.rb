@@ -15,6 +15,5 @@ def get_english meaning(filename, japanese_emoticon)
     hash.each do |key, value|
         if value.[:japanese] = japanese_emoticon
           return key
-        end
       end
     end
