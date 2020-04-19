@@ -12,7 +12,7 @@ end
 
 def get_english_meaning(filename, japanese_emoticon)
     emoticons = load_library(filename)
-    hash.each do |key, value|
+    emoticons.each do |key, value|
         if value[:japanese] = japanese_emoticon
           return key
         end
